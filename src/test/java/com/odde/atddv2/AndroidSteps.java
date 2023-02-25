@@ -25,7 +25,9 @@ public class AndroidSteps {
         driver.launchApp();
 
         TimeUnit.SECONDS.sleep(10);
-        // Input user name in edit
+
+        // Input username in edit
+
         driver.quit();
     }
 }
