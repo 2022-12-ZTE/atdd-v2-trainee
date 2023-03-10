@@ -16,9 +16,9 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
 @Accessors(chain = true)
 @Table(name = "orders")
+@Entity(name = "RelationOrder")
 public class Order {
 
     @Id
